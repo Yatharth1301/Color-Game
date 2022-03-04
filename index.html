@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>THE GREAT COLOR GAME</title>
+        <link rel="stylesheet" href=".\style.css">
+        
+    </head>
+    <body class="mainbody">
+        <div id="gamename">
+            <div>THE COLOR GAME !</div>
+            <div>  </div>
+            <div id="modes">
+                <div id="EasyMode" onmousemove="hover('EasyMode','orangered')" onmouseout="hoveraway('EasyMode','antiquewhite')" onclick="easy()"> EASY </div> 
+                <div id="ToughMode" onmousemove="hover('ToughMode','orangered')" onmouseout="hoveraway('ToughMode','antiquewhite')" onclick="tough()">HARD</div>
+                <div id="ChangeColor" onmousemove="hover('ChangeColor','orangered')" onmouseout="hoveraway('ChangeColor','antiquewhite')" onclick="changeColors()">CHANGE COLORS</div>
+            </div>
+        </div>
+        <div id="gamedetails">
+            <div id="description">Select The Correct Color Based On The RGB Value<br></div>
+            <div id="targetcolor">(r,g,b)</div>
+            <div id="tryagain"></div>
+            <div id="PlayAgain" onmousemove="hover('PlayAgain','rgb(3, 102, 28)')" onmouseout="hoveraway('PlayAgain','rgb(3, 102, 28)')" onclick="changeColors()"></div>
+        </div>
+        <div id="playing_area">
+            <div id="cards1">
+                <div id="cardone" onclick="card_clicked(0,'cardone')">
+                </div>
+                <div id="cardtwo" onclick="card_clicked(1,'cardtwo')">
+                </div>
+                <div id="cardthree" onclick="card_clicked(2,'cardthree')">
+                </div>
+            </div>
+            <div id="cards2">
+                <div id="cardfour" onclick="card_clicked(3,'cardfour')">
+                </div>
+                <div id="cardfive" onclick="card_clicked(4,'cardfive')">
+                </div>
+                <div id="cardsix"  onclick="card_clicked(5,'cardsix')">
+                </div>
+            </div>
+        </div>
+        <script src="./app.js"></script>
+    </body>
+</html>

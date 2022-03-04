@@ -1,0 +1,141 @@
+#gamename{
+    display: flex;
+    flex-direction: row;
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 1%;
+    color: orangered;
+    background-color: rgb(5, 5, 92);
+    justify-content:space-between;
+    align-items: center;
+    padding-left: 42%;
+}
+
+#modes{
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+    height: 100%;
+    width: 30%;
+    justify-content: space-between;
+}
+
+#EasyMode{
+    font-size: medium;
+    color: antiquewhite;
+    align-items: center;
+}
+
+#toughMode{
+    font-size: medium;
+    color: antiquewhite;
+    align-items: center;
+}
+
+#changeColor{
+    font-size: medium;
+    color: antiquewhite;
+    align-items: center;
+}
+
+#gamedetails{
+    display: flex;
+    flex-direction: column;
+    height:  20%;
+    background-color: rgb(150, 245, 126);
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
+}
+
+#description{
+    font-size: xx-large;
+    font-weight: bold;
+    padding-bottom: 1%;
+    color: rgb(3, 102, 28);
+}
+
+#targetcolor{
+    font-size:xx-large;
+    color: rgb(3, 102, 28);
+    padding-bottom: 1%;
+    font-weight: bold;
+}
+
+#tryagain{
+    font-size: xx-large;
+    color: rgb(3, 102, 28);
+    font-weight: bold;
+}
+
+#playing_area{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    /*background-image: linear-gradient(rgb(221, 178, 250),rgb(173, 4, 252));*/
+    background-color: antiquewhite;
+    justify-content: start;
+    align-items: center;
+    font-size: large;
+    padding: 2%;
+}
+
+#cardone{
+    display: flex;
+    width: 25%;
+    background-color: rgb(4, 245, 165);
+}
+
+#cardtwo{
+    display: flex;
+    width:25%;
+    background-color: palevioletred;
+}
+
+#cardthree{
+    display: flex;
+    width: 25%;
+    background-color: greenyellow;
+}
+
+#cards1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 40%;
+    width: 55%;
+    padding: 2%;
+}
+
+#cardfour{
+    display: flex;
+    width: 25%;
+    background-color: rgb(245, 4, 165);
+}
+
+#cardfive{
+    display: flex;
+    width:25%;
+    background-color: rgb(247, 83, 137);
+}
+
+#cardsix{
+    display: flex;
+    width: 25%;
+    background-color: rgb(138, 0, 230);
+}
+
+#cards2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 40%;
+    width: 55%;
+}
+
+.mainbody{
+    margin: 0%;
+}
